@@ -18,4 +18,9 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
       - creare l'elemento in js con createEelement('div')
       - associase la classe square(css) in js
       - associare il numero al quadratino in js
+  - richiama la function dentro il ciclo for
       - aggiungi i quadratini al container (innerHTML o APPEND)
+
+3. reset
+  - function
+    - imposta il contenuto HTML dell’elemento gridContainer a una stringa vuota. In pratica, stai rimuovendo tutto il contenuto HTML. nome.innerHTML = '';

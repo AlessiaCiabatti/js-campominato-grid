@@ -18,9 +18,14 @@ Quando l’utente clicca su ogni cella, la cella cliccata si colora di azzurro e
       - creare l'elemento in js con createEelement('div')
       - associase la classe square(css) in js
       - associare il numero al quadratino in js
-  - richiama la function dentro il ciclo for
-      - aggiungi i quadratini al container (innerHTML o APPEND)
+      - associare un addEventListener a sq che mostra il valore del quadratino
+      
+        - richiama la function dentro il ciclo for
+        - aggiungi i quadratini al container (innerHTML o APPEND)
+        - devo sapere quale elemento clicco, e riportare il suo valore in console.log()
+          - a const square = getSquare() gli passo l'indice i, lo creo all'interno della function sq.innerHTML = numero e inserisco 'numero' alla function. In questo modo numero i quadratini e riesco a visualizzarli in console
 
 3. reset
   - function
     - imposta il contenuto HTML dell’elemento gridContainer a una stringa vuota. In pratica, stai rimuovendo tutto il contenuto HTML. nome.innerHTML = '';
+
